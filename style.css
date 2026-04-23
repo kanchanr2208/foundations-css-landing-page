@@ -27,4 +27,10 @@ body {
     display: flex;
     justify-content: flex-end;
     gap: 4vw;
+    font-size: 18px;
+}
+
+.footer {
+    text-align: center;
+    margin: 40px;
 }

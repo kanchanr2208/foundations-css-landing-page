@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     background: #1f2937;
     color: #f9faf8;
     margin: 0;
@@ -63,7 +63,7 @@ body {
     color: white;
     width: 10vw;
     padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     border-radius: 10px;
     border: none;
@@ -87,7 +87,6 @@ body {
     align-items: center;
     padding-top: 6vh;
     padding-bottom: 15vh;
-    border: 1px solid red;
 }
 
 .card-container h2 {
@@ -101,7 +100,6 @@ body {
 .card-section {
     display: flex;
     gap: 3vw;
-    border: 1px solid green;
 }
 
 .card {
@@ -111,7 +109,6 @@ body {
     align-items: center;
     flex-basis: 150px;
     gap: 1vh;
-    border: 1px solid orange
 }
 
 .card-img {
@@ -148,8 +145,52 @@ body {
 }
 
 .cta-container {
-    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 13vh 0;
 }
+
+.cta {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 7vh 10vw;
+    align-items: center;
+    flex-grow: 0;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.cta-text {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+.cta-text h2 {
+    margin: 0;
+}
+
+.cta-text p {
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+    opacity: 80%;
+}
+
+.cta button {
+    background-color: #3882f6;
+    color: white;
+    width: 10vw;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
 
 .footer {
     text-align: center;

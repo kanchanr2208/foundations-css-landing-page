@@ -77,6 +77,24 @@ body {
     text-align: center;
 }
 
+.quote-container {
+    background: #e5e7eb;
+    padding: 12vh 18vw;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-weight: 900;
+    font-size: 24px;
+    text-align: right;
+    color: black;
+}
+
 .footer {
     text-align: center;
     margin: 40px;

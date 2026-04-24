@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1vh 0;
     
 }
 
@@ -30,6 +31,53 @@ body {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.hero-container {
+    display: flex;
+    padding: 13vh 0;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.hero-text-section {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    min-width: 25vw;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: white;
+    width: 7vw;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20%;
+}
+
+.hero-img-section {
+    background: grey;
+    min-width: 30vw;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 70%;
+}
+
 
 .card-container {
     display: flex;
